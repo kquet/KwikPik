@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B0EBAEF18D4F6300080766F /* Imgur.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0EBAEE18D4F6300080766F /* Imgur.m */; };
+		6B0EBAF518D4FD5C0080766F /* KQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0EBAF418D4FD5C0080766F /* KQHomeViewController.m */; };
+		6B0EBAF818D4FD920080766F /* KQHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0EBAF718D4FD920080766F /* KQHomeView.m */; };
+		6B0EBAFE18D4FE0E0080766F /* KQImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0EBAFD18D4FE0E0080766F /* KQImagePickerViewController.m */; };
 		6B558CF418D4F07400639EED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B558CF318D4F07400639EED /* Foundation.framework */; };
 		6B558CF618D4F07400639EED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B558CF518D4F07400639EED /* CoreGraphics.framework */; };
 		6B558CF818D4F07400639EED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B558CF718D4F07400639EED /* UIKit.framework */; };
@@ -22,7 +26,6 @@
 		6B558D1818D4F07400639EED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B558CF718D4F07400639EED /* UIKit.framework */; };
 		6B558D2018D4F07400639EED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B558D1E18D4F07400639EED /* InfoPlist.strings */; };
 		6B558D2218D4F07400639EED /* KwikPikTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B558D2118D4F07400639EED /* KwikPikTests.m */; };
-		6B558D3318D4F45400639EED /* Imgur.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B558D3218D4F45400639EED /* Imgur.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B0EBAED18D4F6300080766F /* Imgur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Imgur.h; path = Classes/Utilities/Imgur.h; sourceTree = "<group>"; };
+		6B0EBAEE18D4F6300080766F /* Imgur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Imgur.m; path = Classes/Utilities/Imgur.m; sourceTree = "<group>"; };
+		6B0EBAF318D4FD5C0080766F /* KQHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KQHomeViewController.h; path = Classes/Controllers/KQHomeViewController.h; sourceTree = "<group>"; };
+		6B0EBAF418D4FD5C0080766F /* KQHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KQHomeViewController.m; path = Classes/Controllers/KQHomeViewController.m; sourceTree = "<group>"; };
+		6B0EBAF618D4FD920080766F /* KQHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KQHomeView.h; path = Classes/Views/KQHomeView.h; sourceTree = "<group>"; };
+		6B0EBAF718D4FD920080766F /* KQHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KQHomeView.m; path = Classes/Views/KQHomeView.m; sourceTree = "<group>"; };
+		6B0EBAFC18D4FE0E0080766F /* KQImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KQImagePickerViewController.h; path = Classes/Utilities/KQImagePickerViewController.h; sourceTree = "<group>"; };
+		6B0EBAFD18D4FE0E0080766F /* KQImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KQImagePickerViewController.m; path = Classes/Utilities/KQImagePickerViewController.m; sourceTree = "<group>"; };
 		6B558CF018D4F07400639EED /* KwikPik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KwikPik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B558CF318D4F07400639EED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6B558CF518D4F07400639EED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,8 +67,6 @@
 		6B558D1D18D4F07400639EED /* KwikPikTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KwikPikTests-Info.plist"; sourceTree = "<group>"; };
 		6B558D1F18D4F07400639EED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6B558D2118D4F07400639EED /* KwikPikTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KwikPikTests.m; sourceTree = "<group>"; };
-		6B558D3118D4F45400639EED /* Imgur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Imgur.h; sourceTree = "<group>"; };
-		6B558D3218D4F45400639EED /* Imgur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Imgur.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +197,8 @@
 		6B558D2E18D4F0F500639EED /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6B0EBAF318D4FD5C0080766F /* KQHomeViewController.h */,
+				6B0EBAF418D4FD5C0080766F /* KQHomeViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -195,6 +206,8 @@
 		6B558D2F18D4F10200639EED /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6B0EBAF618D4FD920080766F /* KQHomeView.h */,
+				6B0EBAF718D4FD920080766F /* KQHomeView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -202,8 +215,10 @@
 		6B558D3018D4F14E00639EED /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				6B558D3118D4F45400639EED /* Imgur.h */,
-				6B558D3218D4F45400639EED /* Imgur.m */,
+				6B0EBAED18D4F6300080766F /* Imgur.h */,
+				6B0EBAEE18D4F6300080766F /* Imgur.m */,
+				6B0EBAFC18D4FE0E0080766F /* KQImagePickerViewController.h */,
+				6B0EBAFD18D4FE0E0080766F /* KQImagePickerViewController.m */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -307,10 +322,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B0EBAF518D4FD5C0080766F /* KQHomeViewController.m in Sources */,
+				6B0EBAF818D4FD920080766F /* KQHomeView.m in Sources */,
 				6B558D0D18D4F07400639EED /* KQViewController.m in Sources */,
+				6B0EBAFE18D4FE0E0080766F /* KQImagePickerViewController.m in Sources */,
 				6B558D0418D4F07400639EED /* KQAppDelegate.m in Sources */,
-				6B558D3318D4F45400639EED /* Imgur.m in Sources */,
 				6B558D0018D4F07400639EED /* main.m in Sources */,
+				6B0EBAEF18D4F6300080766F /* Imgur.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +543,7 @@
 				6B558D2718D4F07400639EED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B558D2818D4F07400639EED /* Build configuration list for PBXNativeTarget "KwikPikTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +552,7 @@
 				6B558D2A18D4F07400639EED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
