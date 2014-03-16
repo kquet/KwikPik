@@ -10,11 +10,18 @@
 
 @interface KQHomeView ()
 
-@property (weak, nonatomic) IBOutlet UIImageView *homeImageView;
+@property (nonatomic, weak) IBOutlet UIImageView *homeImageView;
+@property (nonatomic, strong) IBOutletCollection(UIButton) NSArray *postButtons;
 
 @end
 
 @implementation KQHomeView
+
+- (void)setButtonEnabled:(BOOL)enable {
+    for (UIButton *button in self.postButtons) {
+        button.enabled = enable;
+    }
+}
 
 - (void)configureWithImage:(UIImage *)image {
     self.homeImageView.image = image;

@@ -10,6 +10,7 @@
 
 @interface KQHomeView : UIView
 
+- (void)setButtonEnabled:(BOOL)enable;
 - (void)configureWithImage:(UIImage *)image;
 
 @end

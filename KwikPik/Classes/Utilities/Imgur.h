@@ -8,8 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol ImgurDelegate <NSObject>
+@optional
+
+- (void)imagePostedWithImageUrl:(NSString *)imageUrl;
+
+@end
+
 @interface Imgur : NSObject
 
-+ (void)postImage:(UIImage *)image withTitle:(NSString *)title andDescription:(NSString *)description;
+@property (nonatomic, strong) id<ImgurDelegate> delegate;
+
+- (void)postImage:(UIImage *)image withTitle:(NSString *)title andDescription:(NSString *)description;
 
 @end
