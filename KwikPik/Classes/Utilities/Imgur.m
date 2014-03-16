@@ -10,7 +10,7 @@
 
 @implementation Imgur
 
-+ (void)postImage:(UIImage *)image withTitle:(NSString *)title andDescription:(NSString *)description {
+- (void)postImage:(UIImage *)image withTitle:(NSString *)title andDescription:(NSString *)description {
     // To post to specific album, need use of following deletehash which is found in the response data of album creation
     NSString *albumId = @"J8lMQTIeZicAtIp";
     // Random boundary string
@@ -64,6 +64,9 @@
         NSDictionary *responseDictionary = [NSJSONSerialization JSONObjectWithData:data
                                                                            options:NSJSONReadingMutableContainers
                                                                              error:nil];
+        
+        [self.delegate imagePostedWithImageUrl:(responseDictionary[@"data"])[@"link"]];
+        
         if (responseDictionary[@"data.error"]) {
             NSLog(@"ERROR: %@", [responseDictionary[@"data.error" ] stringValue]);
         }
