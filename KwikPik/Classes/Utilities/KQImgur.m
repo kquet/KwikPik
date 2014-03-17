@@ -1,14 +1,14 @@
 //
-//  Imgur.m
-//  Humane
+//  KQImgur.h
+//  KwikPik
 //
-//  Created by Kael Quet on 2/1/2014.
-//  Copyright (c) 2014 Kennel Studios Inc. All rights reserved.
+//  Created by Kael Quet on 2014-03-15.
+//  Copyright (c) 2014 Kael Quet. All rights reserved.
 //
 
-#import "Imgur.h"
+#import "KQImgur.h"
 
-@implementation Imgur
+@implementation KQImgur
 
 - (void)postImage:(UIImage *)image withTitle:(NSString *)title andDescription:(NSString *)description {
     // To post to specific album, need use of following deletehash which is found in the response data of album creation

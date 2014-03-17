@@ -10,18 +10,18 @@
 #import "KQHomeViewController.h"
 #import "KQImagePickerViewController.h"
 #import "KQHomeView.h"
-#import "Imgur.h"
+#import "KQImgur.h"
 
 @interface KQHomeViewController () <UINavigationControllerDelegate,
                                     UIImagePickerControllerDelegate,
-                                    ImgurDelegate,
+                                    KQImgurDelegate,
                                     MFMessageComposeViewControllerDelegate,
                                     MFMailComposeViewControllerDelegate>
 
 @property (strong, nonatomic) IBOutlet KQHomeView *homeView;
 
 @property (nonatomic, strong) KQImagePickerViewController *imagePickerController;
-@property (nonatomic, strong) Imgur *imgurController;
+@property (nonatomic, strong) KQImgur *imgurController;
 @property (nonatomic, strong) NSString *imageUrl;
 
 @property (nonatomic, strong) MFMailComposeViewController *mailController;
@@ -35,7 +35,7 @@
 {
     [super viewDidLoad];
     
-    self.imgurController = [[Imgur alloc] init];
+    self.imgurController = [[KQImgur alloc] init];
     self.imgurController.delegate = self;
     
     [self.homeView setButtonEnabled:NO];

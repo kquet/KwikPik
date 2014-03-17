@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B0EBAEF18D4F6300080766F /* Imgur.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0EBAEE18D4F6300080766F /* Imgur.m */; };
+		6B0EBAEF18D4F6300080766F /* KQImgur.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0EBAEE18D4F6300080766F /* KQImgur.m */; };
 		6B0EBAF518D4FD5C0080766F /* KQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0EBAF418D4FD5C0080766F /* KQHomeViewController.m */; };
 		6B0EBAF818D4FD920080766F /* KQHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0EBAF718D4FD920080766F /* KQHomeView.m */; };
 		6B0EBAFE18D4FE0E0080766F /* KQImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0EBAFD18D4FE0E0080766F /* KQImagePickerViewController.m */; };
+		6B2266D018D66CB600EDA987 /* KQReddit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2266CF18D66CB600EDA987 /* KQReddit.m */; };
+		6B2266D718D6764000EDA987 /* KQSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2266D618D6764000EDA987 /* KQSettingsViewController.m */; };
+		6B2266DB18D6867E00EDA987 /* RedditUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2266DA18D6867E00EDA987 /* RedditUser.m */; };
+		6B2266DE18D68DFB00EDA987 /* KQSettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2266DD18D68DFB00EDA987 /* KQSettingsView.m */; };
 		6B558CF418D4F07400639EED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B558CF318D4F07400639EED /* Foundation.framework */; };
 		6B558CF618D4F07400639EED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B558CF518D4F07400639EED /* CoreGraphics.framework */; };
 		6B558CF818D4F07400639EED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B558CF718D4F07400639EED /* UIKit.framework */; };
@@ -39,14 +43,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6B0EBAED18D4F6300080766F /* Imgur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Imgur.h; path = Classes/Utilities/Imgur.h; sourceTree = "<group>"; };
-		6B0EBAEE18D4F6300080766F /* Imgur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Imgur.m; path = Classes/Utilities/Imgur.m; sourceTree = "<group>"; };
+		6B0EBAED18D4F6300080766F /* KQImgur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KQImgur.h; path = Classes/Utilities/KQImgur.h; sourceTree = "<group>"; };
+		6B0EBAEE18D4F6300080766F /* KQImgur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KQImgur.m; path = Classes/Utilities/KQImgur.m; sourceTree = "<group>"; };
 		6B0EBAF318D4FD5C0080766F /* KQHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KQHomeViewController.h; path = Classes/Controllers/KQHomeViewController.h; sourceTree = "<group>"; };
 		6B0EBAF418D4FD5C0080766F /* KQHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KQHomeViewController.m; path = Classes/Controllers/KQHomeViewController.m; sourceTree = "<group>"; };
 		6B0EBAF618D4FD920080766F /* KQHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KQHomeView.h; path = Classes/Views/KQHomeView.h; sourceTree = "<group>"; };
 		6B0EBAF718D4FD920080766F /* KQHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KQHomeView.m; path = Classes/Views/KQHomeView.m; sourceTree = "<group>"; };
 		6B0EBAFC18D4FE0E0080766F /* KQImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KQImagePickerViewController.h; path = Classes/Utilities/KQImagePickerViewController.h; sourceTree = "<group>"; };
 		6B0EBAFD18D4FE0E0080766F /* KQImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KQImagePickerViewController.m; path = Classes/Utilities/KQImagePickerViewController.m; sourceTree = "<group>"; };
+		6B2266CE18D66CB600EDA987 /* KQReddit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KQReddit.h; path = Classes/Utilities/KQReddit.h; sourceTree = "<group>"; };
+		6B2266CF18D66CB600EDA987 /* KQReddit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KQReddit.m; path = Classes/Utilities/KQReddit.m; sourceTree = "<group>"; };
+		6B2266D518D6764000EDA987 /* KQSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KQSettingsViewController.h; path = Classes/Controllers/KQSettingsViewController.h; sourceTree = "<group>"; };
+		6B2266D618D6764000EDA987 /* KQSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KQSettingsViewController.m; path = Classes/Controllers/KQSettingsViewController.m; sourceTree = "<group>"; };
+		6B2266D918D6867E00EDA987 /* RedditUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RedditUser.h; path = Classes/Models/RedditUser.h; sourceTree = "<group>"; };
+		6B2266DA18D6867E00EDA987 /* RedditUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RedditUser.m; path = Classes/Models/RedditUser.m; sourceTree = "<group>"; };
+		6B2266DC18D68DFB00EDA987 /* KQSettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KQSettingsView.h; path = Classes/Views/KQSettingsView.h; sourceTree = "<group>"; };
+		6B2266DD18D68DFB00EDA987 /* KQSettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KQSettingsView.m; path = Classes/Views/KQSettingsView.m; sourceTree = "<group>"; };
 		6B558CF018D4F07400639EED /* KwikPik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KwikPik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B558CF318D4F07400639EED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6B558CF518D4F07400639EED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -93,6 +105,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B2266D818D6864B00EDA987 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6B2266D918D6867E00EDA987 /* RedditUser.h */,
+				6B2266DA18D6867E00EDA987 /* RedditUser.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		6B558CE718D4F07400639EED = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +150,7 @@
 				6B558D2B18D4F09A00639EED /* Interface Builder */,
 				6B558D2E18D4F0F500639EED /* Controllers */,
 				6B558D2F18D4F10200639EED /* Views */,
+				6B2266D818D6864B00EDA987 /* Models */,
 				6B558D3018D4F14E00639EED /* Utilities */,
 				6B558D0218D4F07400639EED /* KQAppDelegate.h */,
 				6B558D0318D4F07400639EED /* KQAppDelegate.m */,
@@ -199,6 +221,8 @@
 			children = (
 				6B0EBAF318D4FD5C0080766F /* KQHomeViewController.h */,
 				6B0EBAF418D4FD5C0080766F /* KQHomeViewController.m */,
+				6B2266D518D6764000EDA987 /* KQSettingsViewController.h */,
+				6B2266D618D6764000EDA987 /* KQSettingsViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -208,6 +232,8 @@
 			children = (
 				6B0EBAF618D4FD920080766F /* KQHomeView.h */,
 				6B0EBAF718D4FD920080766F /* KQHomeView.m */,
+				6B2266DC18D68DFB00EDA987 /* KQSettingsView.h */,
+				6B2266DD18D68DFB00EDA987 /* KQSettingsView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -215,10 +241,12 @@
 		6B558D3018D4F14E00639EED /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				6B0EBAED18D4F6300080766F /* Imgur.h */,
-				6B0EBAEE18D4F6300080766F /* Imgur.m */,
+				6B0EBAED18D4F6300080766F /* KQImgur.h */,
+				6B0EBAEE18D4F6300080766F /* KQImgur.m */,
 				6B0EBAFC18D4FE0E0080766F /* KQImagePickerViewController.h */,
 				6B0EBAFD18D4FE0E0080766F /* KQImagePickerViewController.m */,
+				6B2266CE18D66CB600EDA987 /* KQReddit.h */,
+				6B2266CF18D66CB600EDA987 /* KQReddit.m */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -322,13 +350,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B2266DB18D6867E00EDA987 /* RedditUser.m in Sources */,
 				6B0EBAF518D4FD5C0080766F /* KQHomeViewController.m in Sources */,
 				6B0EBAF818D4FD920080766F /* KQHomeView.m in Sources */,
 				6B558D0D18D4F07400639EED /* KQViewController.m in Sources */,
 				6B0EBAFE18D4FE0E0080766F /* KQImagePickerViewController.m in Sources */,
 				6B558D0418D4F07400639EED /* KQAppDelegate.m in Sources */,
+				6B2266DE18D68DFB00EDA987 /* KQSettingsView.m in Sources */,
+				6B2266D018D66CB600EDA987 /* KQReddit.m in Sources */,
+				6B2266D718D6764000EDA987 /* KQSettingsViewController.m in Sources */,
 				6B558D0018D4F07400639EED /* main.m in Sources */,
-				6B0EBAEF18D4F6300080766F /* Imgur.m in Sources */,
+				6B0EBAEF18D4F6300080766F /* KQImgur.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
